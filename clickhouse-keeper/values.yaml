@@ -92,9 +92,6 @@ persistence:
   ## persistence.persistence.storageClass -- Storage class for PV (e.g. gp2, standard, ...)
   ##
   storageClass: ""
-  ## @param persistence.existingClaim The name of an existing PVC to use for persistence
-  ##
-  existingClaim: ""
 
 podAnnotations: {}
 podLabels: {}
